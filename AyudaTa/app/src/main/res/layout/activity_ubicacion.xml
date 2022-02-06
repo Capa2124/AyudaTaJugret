@@ -8,16 +8,5 @@
     android:layout_height="90mm"
     tools:context=".activity_ubicacion" >
 
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/boton_regreso_info"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:backgroundTint="@color/green"
-        android:text="Volver al menú"
-        android:textStyle="bold"
-        android:visibility="visible"
-        tools:visibility="visible" />
-
 </fragment>
 
