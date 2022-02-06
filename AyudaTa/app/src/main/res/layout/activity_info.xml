@@ -35,13 +35,14 @@
         />
 
     <!-- SECCION DE NOMBRE-->
+
     <TextView
         android:layout_width="300dp"
         android:layout_height="30dp"
         android:text=" Nombre"
         android:textStyle="bold"
         android:textSize="2.8mm"
-        android:background="@color/material_dynamic_neutral80"
+        android:background="@color/gray"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
@@ -54,7 +55,7 @@
     <TextView
         android:layout_width="300dp"
         android:layout_height="30dp"
-        android:background="@color/material_dynamic_neutral80"
+        android:background="@color/gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -66,17 +67,17 @@
     <TextView
         android:layout_width="298dp"
         android:layout_height="28dp"
-        android:text=" Daniel Caparroso Gutiérrez"
-        android:textSize="2.5mm"
-        android:textColor="@color/black"
         android:background="@color/white"
+        android:text=" Daniel Caparroso Gutiérrez"
+        android:textColor="@color/black"
+        android:textSize="2.5mm"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.240"
-        />
+        app:layout_constraintVertical_bias="0.240" />
+
     <!-- SECCION DE NOMBRE-->
 
     <!-- SECCION DE DIRECCIÓN-->
@@ -86,7 +87,7 @@
         android:text=" Dirección"
         android:textStyle="bold"
         android:textSize="2.8mm"
-        android:background="@color/material_dynamic_neutral80"
+        android:background="@color/gray"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
@@ -99,7 +100,7 @@
     <TextView
         android:layout_width="300dp"
         android:layout_height="30dp"
-        android:background="@color/material_dynamic_neutral80"
+        android:background="@color/gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -122,6 +123,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.390"
         />
+
     <!-- SECCION DE DIRECCIÓN-->
 
     <!-- SECCION DE EDAD-->
@@ -131,7 +133,7 @@
         android:text=" Edad"
         android:textStyle="bold"
         android:textSize="2.8mm"
-        android:background="@color/material_dynamic_neutral80"
+        android:background="@color/gray"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
@@ -144,7 +146,7 @@
     <TextView
         android:layout_width="300dp"
         android:layout_height="30dp"
-        android:background="@color/material_dynamic_neutral80"
+        android:background="@color/gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -167,6 +169,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.540"
         />
+
     <!-- SECCION DE EDAD-->
 
     <!-- SECCION DE PADECIMIENTOS-->
@@ -176,7 +179,7 @@
         android:text=" Padecimientos"
         android:textStyle="bold"
         android:textSize="2.8mm"
-        android:background="@color/material_dynamic_neutral80"
+        android:background="@color/gray"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
@@ -189,7 +192,7 @@
     <TextView
         android:layout_width="300dp"
         android:layout_height="30dp"
-        android:background="@color/material_dynamic_neutral80"
+        android:background="@color/gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -212,9 +215,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.690"
         />
+
     <!-- SECCION DE PADECIMIENTOS-->
 
-    <!-- SECCION DE IMAGEN ICON-->
+    <!-- SECCION DE IMAGEN ICON -->
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="50dp"
